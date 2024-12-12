@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import sqlite3
 import asyncio
 
-API_TOKEN = '7229253995:AAEnaz4-oqJjR1t1XhMz2O9cpFUMaYy9e_0'
+API_TOKEN = 'YOUR_TOKEN'
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()  # Хранилище состояний в памяти
